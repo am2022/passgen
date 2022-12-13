@@ -8,6 +8,8 @@ class pass{
     public:
         pass();
         ~pass();
+        void creat_pass();
+        void generate();
 };
 
 #endif
