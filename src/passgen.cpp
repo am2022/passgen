@@ -4,14 +4,14 @@ using namespace std;
 
 int main(){
     pass p;
-
-    int num;
-    cout<<"enter number:";
-    cin>>num;
-
-    char ch[num];
+    string chs;
     cout<<"enter characters:";
-    cin>>ch;
+    cin>>chs;
+
+    char ch[chs.length()];
+    for(int i = 0;i < chs.length();i++){
+        ch[i] = chs[i];
+    }
 
     int len = sizeof(ch) / sizeof(ch[0]);
 
