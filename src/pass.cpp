@@ -17,6 +17,7 @@ void pass::creat_pass(char *ch, int len){
 void pass::generate(char *ch, int i, string s, int len){
     if(i == 0){
         cout<<s<<"\n";
+        return;
     }
 
     for(int j = 0;j < len;j++){
