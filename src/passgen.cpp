@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 #include "pass.cpp"
 using namespace std;
 
@@ -7,7 +8,12 @@ int main(int argc, char** argv){
     string chs;
 
     if(argc >= 2){
-        
+        for(int i = 1;i < argc;i++){
+            if(! strcmp(argv[i], "-char")){
+                chs = argv[i+1];
+                goto gen;
+            }
+        }
     }
     else if(argc == 1){
         goto mainfunc;
@@ -17,6 +23,8 @@ int main(int argc, char** argv){
 
     cout<<"enter characters:";
     cin>>chs;
+
+    gen:
 
     char ch[chs.length()];
     for(int i = 0;i < chs.length();i++){
