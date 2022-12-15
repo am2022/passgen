@@ -2,9 +2,19 @@
 #include "pass.cpp"
 using namespace std;
 
-int main(){
+int main(int argc, char** argv){
     pass p;
     string chs;
+
+    if(argc >= 2){
+        
+    }
+    else if(argc == 1){
+        goto mainfunc;
+    }
+
+    mainfunc:
+
     cout<<"enter characters:";
     cin>>chs;
 
