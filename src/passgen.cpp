@@ -14,6 +14,10 @@ int main(int argc, char** argv){
                 chs = argv[i+1];
                 goto gen;
             }
+            else if(! strcmp(argv[i], "-h") | strcmp(argv[i], "--help")){
+                argv_help();
+                return 0;
+            }
         }
     }
     else if(argc == 1){
