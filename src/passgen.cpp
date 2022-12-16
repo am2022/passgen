@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include "pass.cpp"
+#include "help.h"
 using namespace std;
 
 int main(int argc, char** argv){
