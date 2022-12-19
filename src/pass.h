@@ -4,12 +4,14 @@
 #pragma once
 
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 class pass{
     private:
         bool export_to_file;
         string file_name;
+        ofstream pass_out;
     public:
         pass();
         ~pass();

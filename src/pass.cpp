@@ -30,4 +30,5 @@ void pass::generate(char *ch, int i, string s, int len){
 void pass::set_filename(string fname){
     this->export_to_file = true;
     this->file_name = fname;
+    this->pass_out.open(this->file_name, ios::app);
 }
