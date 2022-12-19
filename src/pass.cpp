@@ -1,7 +1,7 @@
 #include "pass.h"
 
 pass::pass(){
-
+    this->export_to_file = false;
 }
 
 pass::~pass(){

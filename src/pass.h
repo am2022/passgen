@@ -8,6 +8,7 @@ using namespace std;
 
 class pass{
     private:
+        bool export_to_file;
     public:
         pass();
         ~pass();
