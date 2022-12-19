@@ -2,6 +2,7 @@
 
 pass::pass(){
     this->export_to_file = false;
+    this->file_name = "";
 }
 
 pass::~pass(){
