@@ -26,3 +26,7 @@ void pass::generate(char *ch, int i, string s, int len){
         generate(ch, i - 1, pass, len);
     }
 }
+
+void pass::set_filename(string fname){
+
+}

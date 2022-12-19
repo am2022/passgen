@@ -15,6 +15,7 @@ class pass{
         ~pass();
         void creat_pass(char *ch, int len);
         void generate(char *ch, int i, string s, int len);
+        void set_filename(string fname);
 };
 
 #endif
