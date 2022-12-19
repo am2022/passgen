@@ -18,6 +18,11 @@ int main(int argc, char** argv){
                 argv_help();
                 return 0;
             }
+            else{
+                cout<<"wrong input!\n";
+                cout<<"type -h or --help for getting help";
+                return 0;
+            }
         }
     }
     else if(argc == 1){
