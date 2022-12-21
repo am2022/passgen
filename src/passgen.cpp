@@ -17,6 +17,12 @@ int main(int argc, char** argv){
                 chs = argv[i+1];
                 goto gen;
             }
+            else if(! strcmp(argv[i], "-o")){
+                f_export_pass = argv[i+1];
+                p.set_filename(f_export_pass);
+
+                goto gen;
+            }
             else if(! strcmp(argv[i], "-h") || ! strcmp(argv[i], "--help")){
                 argv_help();
                 return 0;
