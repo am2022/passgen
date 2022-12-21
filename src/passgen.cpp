@@ -7,6 +7,9 @@ using namespace std;
 int main(int argc, char** argv){
     pass p;
     string chs;
+    bool export_pass = false;
+    string s_export_pass;
+    string f_export_pass;
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
@@ -33,6 +36,15 @@ int main(int argc, char** argv){
 
     cout<<"enter characters:";
     cin>>chs;
+    cout<<"do you want to export passlist in a file?(y/n):";
+    cin>>s_export_pass;
+
+    if(s_export_pass == "y" || s_export_pass == "yes" || s_export_pass[0] == 'y'){
+        export_pass = true;
+
+        cout<<"enter file name:";
+        cin>>f_export_pass;
+    }
 
     gen:
 
