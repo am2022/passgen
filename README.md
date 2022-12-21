@@ -5,4 +5,7 @@
 * Use characters:
 >if you want to take characters to passgen in argv; you should use -char and after that, you should write the characters.
 * Get help:
->if you want to get help for argv in passgen you can type -h or --help 
+>if you want to get help for argv in passgen you can type -h or --help.
+*  Get output into a file:
+>use -o and after that file name that you want to get output at that file.
+* You should use -exec end of the argv inputs.
