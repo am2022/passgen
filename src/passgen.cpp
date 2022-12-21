@@ -44,6 +44,8 @@ int main(int argc, char** argv){
 
         cout<<"enter file name:";
         cin>>f_export_pass;
+
+        p.set_filename(f_export_pass);
     }
 
     gen:
