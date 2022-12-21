@@ -20,7 +20,9 @@ int main(int argc, char** argv){
             else if(! strcmp(argv[i], "-o")){
                 f_export_pass = argv[i+1];
                 p.set_filename(f_export_pass);
-
+                i++;
+            }
+            else if(! strcmp(argv[i], "-exec")){
                 goto gen;
             }
             else if(! strcmp(argv[i], "-h") || ! strcmp(argv[i], "--help")){
