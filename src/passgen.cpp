@@ -10,27 +10,12 @@ int main(int argc, char** argv){
     bool export_pass = false;
     string s_export_pass;
     string f_export_pass;
-    int argv_chars[3] = {0, 0, 0};
-    
-    if(argc >= 2){
-        for(int i = 1;i < argc;i++){
-            if(! strcmp(argv[i], "-char")){
-                argv_chars[0] = 1;
-            }
-            else if(! strcmp(argv[i], "-o")){
-                argv_chars[1] = 1;
-            }
-            else if(! strcmp(argv[i], "-h") || ! strcmp(argv[i], "--help")){
-                argv_chars[2] = 1;
-            }
-        }
-    }
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
             if(! strcmp(argv[i], "-char")){
                 chs = argv[i+1];
-                goto gen;
+                i++;
             }
             else if(! strcmp(argv[i], "-o")){
                 f_export_pass = argv[i+1];
