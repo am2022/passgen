@@ -50,7 +50,7 @@ int main(int argc, char** argv){
     cout<<"do you want to export passlist in a file?(y/n):";
     cin>>s_export_pass;
 
-    if(s_export_pass == "y" || s_export_pass == "yes" || s_export_pass[0] == 'y'){
+    if(s_export_pass[0] == 'y' || s_export_pass[0] == 'Y'){
         export_pass = true;
 
         cout<<"enter file name:";
