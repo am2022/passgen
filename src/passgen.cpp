@@ -78,7 +78,7 @@ int main(int argc, char** argv){
 
     int len = sizeof(ch) / sizeof(ch[0]);
 
-    p.creat_pass(ch, len);
+    p.creat_pass(ch, len, s_range, e_range);
 
     return 0;
 }
