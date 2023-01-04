@@ -11,7 +11,7 @@ pass::~pass(){
 
 void pass::creat_pass(char *ch, int len, int start_range, int end_range){
     for(int i = 0;i <= len;i++){
-        generate(ch, i, "", len);
+        generate(ch, i, "", len, start_range, end_range);
     }
 }
 
