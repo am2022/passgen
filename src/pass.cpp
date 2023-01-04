@@ -27,7 +27,7 @@ void pass::generate(char *ch, int i, string s, int len, int start_range, int end
 
     for(int j = 0;j < len;j++){
         string pass = s + ch[j];
-        generate(ch, i - 1, pass, len);
+        generate(ch, i - 1, pass, len, start_range, end_range);
     }
 }
 
