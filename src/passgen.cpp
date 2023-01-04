@@ -12,6 +12,7 @@ int main(int argc, char** argv){
     string f_export_pass;
     int s_range;
     int e_range;
+    string add_range;
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
@@ -56,6 +57,13 @@ int main(int argc, char** argv){
         cin>>f_export_pass;
 
         p.set_filename(f_export_pass);
+    }
+
+    cout<<"do you want to add length range for password list?(y/n):";
+    cin>>add_range;
+
+    if(add_range[0] == 'y' | add_range[0] == 'Y'){
+        
     }
 
     gen:
