@@ -10,6 +10,8 @@ int main(int argc, char** argv){
     bool export_pass = false;
     string s_export_pass;
     string f_export_pass;
+    int s_range;
+    int e_range;
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
