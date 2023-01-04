@@ -62,8 +62,8 @@ int main(int argc, char** argv){
     cout<<"do you want to add length range for password list?(y/n):";
     cin>>add_range;
 
-    if(add_range[0] == 'y' | add_range[0] == 'Y'){
-        
+    if(add_range[0] == 'y' || add_range[0] == 'Y'){
+
     }
 
     gen:
