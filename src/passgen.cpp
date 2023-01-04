@@ -63,7 +63,10 @@ int main(int argc, char** argv){
     cin>>add_range;
 
     if(add_range[0] == 'y' || add_range[0] == 'Y'){
-
+        cout<<"enter start of range:";
+        cin>>s_range;
+        cout<<"enter end of range:";
+        cin>>e_range;
     }
 
     gen:
