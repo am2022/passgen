@@ -15,7 +15,7 @@ class pass{
     public:
         pass();
         ~pass();
-        void creat_pass(char *ch, int len);
+        void creat_pass(char *ch, int len, int start_range, int end_range);
         void generate(char *ch, int i, string s, int len);
         void set_filename(string fname);
 };
