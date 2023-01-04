@@ -15,7 +15,7 @@ void pass::creat_pass(char *ch, int len, int start_range, int end_range){
     }
 }
 
-void pass::generate(char *ch, int i, string s, int len){
+void pass::generate(char *ch, int i, string s, int len, int start_range, int end_range){
     if(i == 0){
         cout<<s<<"\n";
 
