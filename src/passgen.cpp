@@ -35,6 +35,7 @@ int main(int argc, char** argv){
             else if(! strcmp(argv[i], "-er")){
                 er = argv[i+1];
                 e_range = stoi(er);
+                i++;
             }
             else if(! strcmp(argv[i], "-exec")){
                 goto gen;
