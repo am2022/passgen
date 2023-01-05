@@ -28,12 +28,12 @@ int main(int argc, char** argv){
                 i++;
             }
             else if(! strcmp(argv[i], "-sr")){
-                sr = argv[i+1];
+                sr = string(argv[i+1]);
                 s_range = stoi(sr);
                 i++;
             }
             else if(! strcmp(argv[i], "-er")){
-                er = argv[i+1];
+                er = string(argv[i+1]);
                 e_range = stoi(er);
                 i++;
             }
