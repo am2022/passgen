@@ -27,6 +27,10 @@ int main(int argc, char** argv){
                 p.set_filename(f_export_pass);
                 i++;
             }
+            else if(! strcmp(argv[i], "-sr")){
+                sr = argv[i+1];
+                s_range = stoi(sr);
+            }
             else if(! strcmp(argv[i], "-exec")){
                 goto gen;
             }
