@@ -30,6 +30,7 @@ int main(int argc, char** argv){
             else if(! strcmp(argv[i], "-sr")){
                 sr = argv[i+1];
                 s_range = stoi(sr);
+                i++;
             }
             else if(! strcmp(argv[i], "-er")){
                 er = argv[i+1];
