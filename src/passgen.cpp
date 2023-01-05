@@ -13,6 +13,8 @@ int main(int argc, char** argv){
     int s_range;
     int e_range;
     string add_range;
+    string sr;
+    string er;
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
