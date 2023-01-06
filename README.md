@@ -10,5 +10,7 @@
 >use -o and after that file name that you want to get output at that file.
 * config start range:
 >use -sr and the start range.
+* config end range:
+>use -er and end of range number.
 * You should use -exec end of the argv inputs.
 >end of the argvs that you use you should put -exec for getting execute.
