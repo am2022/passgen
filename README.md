@@ -9,3 +9,4 @@
 *  Get output into a file:
 >use -o and after that file name that you want to get output at that file.
 * You should use -exec end of the argv inputs.
+>end of the argvs that you use you should put -exec for getting execute 
