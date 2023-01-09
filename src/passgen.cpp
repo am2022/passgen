@@ -41,6 +41,12 @@ int main(int argc, char** argv){
             else if(! strcmp(argv[i], "-er")){
                 er = string(argv[i+1]);
                 e_range = stoi(er);
+
+                if(e_range > chs.length()){
+                    cout<<"your input end range, is more than length of characters you entered!\n";
+                    return 0;
+                }
+
                 i++;
             }
             else if(! strcmp(argv[i], "-exec")){
