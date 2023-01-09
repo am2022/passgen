@@ -30,6 +30,12 @@ int main(int argc, char** argv){
             else if(! strcmp(argv[i], "-sr")){
                 sr = string(argv[i+1]);
                 s_range = stoi(sr);
+
+                if(s_range > chs.length()){
+                    cout<<"your input start range, is more than length of characters you entered!\n";
+                    return 0;
+                }
+
                 i++;
             }
             else if(! strcmp(argv[i], "-er")){
