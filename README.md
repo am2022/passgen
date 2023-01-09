@@ -14,3 +14,6 @@
 >use -er and end of range number.
 * You should use -exec end of the argv inputs.
 >end of the argvs that you use you should put -exec for getting execute.
+## how to build passgen?
+### first install g++, or any compiler that you prefer.
+### after that you should put standard to c++11; if you have g++ you can do it by -std=c++11 after g++.
