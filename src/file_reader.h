@@ -10,6 +10,7 @@ using namespace std;
 class file_reader{
     private:
         string file_name;
+        ifstream char_in;
     public:
         file_reader();
         ~file_reader();
