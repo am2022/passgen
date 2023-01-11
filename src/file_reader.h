@@ -13,6 +13,7 @@ class file_reader{
     public:
         file_reader();
         ~file_reader();
+        void set_filename(string fname);
 };
 
 #endif
