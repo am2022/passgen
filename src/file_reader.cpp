@@ -12,3 +12,7 @@ void file_reader::set_filename(string fname){
     this->file_name = fname;
     this->char_in.open(this->file_name);
 }
+
+string file_reader::read_file(){
+    
+}
