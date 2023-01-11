@@ -3,6 +3,8 @@
 
 #pragma once
 
+#define MAX_READ_SIZE (4 * 128)
+
 #include <iostream>
 #include <fstream>
 using namespace std;
