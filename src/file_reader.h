@@ -7,4 +7,9 @@
 #include <fstream>
 using namespace std;
 
+class file_reader{
+    private:
+    public:
+};
+
 #endif
