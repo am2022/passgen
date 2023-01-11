@@ -10,6 +10,8 @@ using namespace std;
 class file_reader{
     private:
     public:
+        file_reader();
+        ~file_reader();
 };
 
 #endif
