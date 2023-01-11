@@ -21,6 +21,10 @@ string file_reader::read_file(){
     while(! this->char_in.eof()){
         this->char_in>>buff[i];
         i++;
+
+        if(i > MAX_READ_SIZE){
+            cout<<"passgen can't open this file; because file is too big!";
+        }
     }
 
     for(int j = 0;buff[j] != '\0';i++){
