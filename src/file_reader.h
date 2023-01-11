@@ -9,6 +9,7 @@ using namespace std;
 
 class file_reader{
     private:
+        string file_name;
     public:
         file_reader();
         ~file_reader();
