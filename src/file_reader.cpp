@@ -1,7 +1,7 @@
 #include "file_reader.h"
 
 file_reader::file_reader(){
-
+    this->file_name = "";
 }
 
 file_reader::~file_reader(){
