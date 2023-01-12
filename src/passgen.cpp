@@ -7,6 +7,8 @@ using namespace std;
 int main(int argc, char** argv){
     pass p;
     string chs;
+    string a_chs;       //ask for chs file
+    string f_chs;       //for getting chs file
     bool export_pass = false;
     string s_export_pass;
     string f_export_pass;
@@ -69,8 +71,17 @@ int main(int argc, char** argv){
 
     mainfunc:
 
-    cout<<"enter characters:";
-    cin>>chs;
+    cout<<"do you want to import list of characters?(y/n):";
+    cin>>a_chs;
+
+    if(a_chs[0] == 'y' || a_chs[0] == 'Y'){
+
+    }
+    else{
+        cout<<"enter characters:";
+        cin>>chs;
+    }
+
     cout<<"do you want to export passlist in a file?(y/n):";
     cin>>s_export_pass;
 
