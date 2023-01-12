@@ -15,6 +15,7 @@ class file_reader{
         ifstream char_in;
     public:
         file_reader();
+        file_reader(string fname);
         ~file_reader();
         void set_filename(string fname);
         string read_file();

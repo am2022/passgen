@@ -4,6 +4,10 @@ file_reader::file_reader(){
     this->file_name = "";
 }
 
+file_reader::file_reader(string fname){
+    set_filename(fname);
+}
+
 file_reader::~file_reader(){
     this->char_in.close();
 }
