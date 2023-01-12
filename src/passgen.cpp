@@ -76,7 +76,12 @@ int main(int argc, char** argv){
     cin>>a_chs;
 
     if(a_chs[0] == 'y' || a_chs[0] == 'Y'){
+        cout<<"enter file name:";
+        cin>>f_chs;
 
+        file_reader reader(f_chs);
+
+        chs = reader.read_file();
     }
     else{
         cout<<"enter characters:";
