@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include "pass.cpp"
+#include "file_reader.cpp"
 #include "help.h"
 using namespace std;
 
