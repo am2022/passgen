@@ -39,5 +39,12 @@ string file_reader::read_file(){
 }
 
 int file_reader::is_file_valid(string fname){
-    
+    ifstream file(fname);
+
+    if(! file){
+        return 1;
+    }
+    else{
+        return 0;
+    }
 }
