@@ -5,7 +5,7 @@ file_reader::file_reader(){
 }
 
 file_reader::file_reader(string fname){
-    set_filename(fname);
+    this->set_filename(fname);
 }
 
 file_reader::~file_reader(){
