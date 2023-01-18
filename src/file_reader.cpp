@@ -31,7 +31,7 @@ string file_reader::read_file(){
         }
     }
 
-    for(int j = 0;buff[j] != '\0';i++){
+    for(int j = 0;buff[j] != '\0';j++){
         s_buff += buff[j];
     }
 
