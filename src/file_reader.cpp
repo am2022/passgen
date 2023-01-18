@@ -37,3 +37,7 @@ string file_reader::read_file(){
 
     return s_buff;
 }
+
+int file_reader::is_file_valid(string fname){
+    
+}
