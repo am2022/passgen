@@ -13,8 +13,14 @@ file_reader::~file_reader(){
 }
 
 int file_reader::set_filename(string fname){
-    this->file_name = fname;
-    this->char_in.open(this->file_name);
+    if(this->is_file_valid(fname) == 1){
+        this->file_name = fname;
+        this->char_in.open(this->file_name);
+    }
+    else{
+        cout<<"you enter invalid file name!";
+        return 0;
+    }
 }
 
 string file_reader::read_file(){
