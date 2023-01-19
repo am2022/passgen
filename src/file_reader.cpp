@@ -34,6 +34,7 @@ string file_reader::read_file(){
 
         if(i > MAX_READ_SIZE){
             cout<<"passgen can't open this file; because file is too big!";
+            exit(0);
         }
     }
 
