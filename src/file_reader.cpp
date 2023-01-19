@@ -18,7 +18,7 @@ int file_reader::set_filename(string fname){
         this->char_in.open(this->file_name);
     }
     else{
-        cout<<"you enter invalid file name!";
+        cout<<"you enter invalid file name!\n";
         return 0;
     }
 }
