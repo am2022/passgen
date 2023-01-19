@@ -76,10 +76,16 @@ int main(int argc, char** argv){
     cin>>a_chs;
 
     if(a_chs[0] == 'y' || a_chs[0] == 'Y'){
+        get_import_file:
+
         cout<<"enter file name:";
         cin>>f_chs;
 
-        file_reader reader(f_chs);
+        file_reader reader;
+
+        if(! reader.set_filename(f_chs)){
+            goto get_import_file;
+        }
 
         chs = reader.read_file();
     }
