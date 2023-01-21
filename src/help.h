@@ -7,5 +7,6 @@ void argv_help(){
     cout<<"-o for get output file\n";
     cout<<"-sr for config the start range of password list\n";
     cout<<"-er for config the end of password list\n";
+    cout<<"-imp_char for import a file for setting chars of password\n";
     cout<<"you should type -exec end of your inputs";
 }
