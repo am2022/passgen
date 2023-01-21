@@ -52,7 +52,7 @@ int main(int argc, char** argv){
 
                 i++;
             }
-            else if(! strcmp(argv[i], "-imp_pass")){
+            else if(! strcmp(argv[i], "-imp_char")){
                 f_chs = string(argv[i+1]);
 
                 file_reader read;
