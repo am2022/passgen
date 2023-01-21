@@ -12,6 +12,8 @@
 >use -sr and the start range.
 * config end range:
 >use -er and end of range number.
+* import chars with file:
+>use -imp_char and after that file name.
 * You should use -exec end of the argv inputs.
 >end of the argvs that you use you should put -exec for getting execute.
 ## how to build passgen?
