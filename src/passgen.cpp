@@ -57,7 +57,11 @@ int main(int argc, char** argv){
 
                 file_reader read;
 
-                read.set_filename(f_chs);
+                if(! read.set_filename(f_chs)){
+                    cout<<"enter a valid file name!";
+                    return 0;
+                }
+
                 chs = read.read_file();
             }
             else if(! strcmp(argv[i], "-exec")){
