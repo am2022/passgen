@@ -18,6 +18,7 @@ int main(int argc, char** argv){
     string add_range;
     string sr;
     string er;
+    file_reader reader;
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
@@ -83,8 +84,6 @@ int main(int argc, char** argv){
 
         cout<<"enter file name:";
         cin>>f_chs;
-
-        file_reader reader;
 
         if(! reader.set_filename(f_chs)){
             goto get_import_file;
