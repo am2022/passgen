@@ -52,6 +52,9 @@ int main(int argc, char** argv){
 
                 i++;
             }
+            else if(! strcmp(argv[i], "-imp_pass")){
+                
+            }
             else if(! strcmp(argv[i], "-exec")){
                 goto gen;
             }
