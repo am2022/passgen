@@ -37,3 +37,7 @@ void pass::set_filename(string fname){
     this->file_name = fname;
     this->pass_out.open(this->file_name, ios::app);
 }
+
+void pass::set_static_string(string s_string){
+    this->static_string = s_string;
+}
