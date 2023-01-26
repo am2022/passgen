@@ -18,6 +18,7 @@ void pass::creat_pass(char *ch, int len, int start_range = 0, int end_range = 0)
 
 void pass::generate(char *ch, int i, string s, int len, int start_range, int end_range){
     if(i == 0){
+        cout<<this->static_string;
         cout<<s<<"\n";
 
         if(this->export_to_file == true){
