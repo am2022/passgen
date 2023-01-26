@@ -21,6 +21,7 @@ void pass::generate(char *ch, int i, string s, int len, int start_range, int end
         cout<<s<<"\n";
 
         if(this->export_to_file == true){
+            this->pass_out<<this->static_string;
             this->pass_out<<s<<"\n";
         }
         return;
