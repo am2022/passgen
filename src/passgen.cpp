@@ -113,6 +113,8 @@ int main(int argc, char** argv){
     if(a_static_string[0] == 'y' || a_static_string[0] == 'Y'){
         cout<<"enter static string:";
         cin>>static_string;
+
+        p.set_static_string(static_string);
     }
 
     cout<<"do you want to export passlist in a file?(y/n):";
