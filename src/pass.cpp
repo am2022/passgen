@@ -10,7 +10,14 @@ pass::~pass(){
 }
 
 void pass::creat_pass(char *ch, int len, int start_range = 0, int end_range = 0){
-    end_range = len;
+    if(start_range == 0){
+        start_range = 0;
+    }
+
+    if(end_range == 0){
+        end_range = len;
+    }
+
     for(int i = start_range;i <= end_range;i++){
         generate(ch, i, "", len, start_range, end_range);
     }
