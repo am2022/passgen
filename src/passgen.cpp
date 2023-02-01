@@ -148,7 +148,12 @@ int main(int argc, char** argv){
 
     int len = sizeof(ch) / sizeof(ch[0]);
 
-    p.creat_pass(ch, len, s_range, e_range);
+    if(add_range[0] == 'y' || add_range[0] == 'Y'){
+        p.creat_pass(ch, len, s_range, e_range);
+    }
+    else{
+        p.creat_pass(ch, len);
+    }
 
     return 0;
 }
