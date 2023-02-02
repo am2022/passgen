@@ -65,6 +65,11 @@ int main(int argc, char** argv){
 
                 chs = read.read_file();
             }
+            else if(! strcmp(argv[i], "-static_string")){
+                static_string = string(argv[i+1]);
+
+                i++;
+            }
             else if(! strcmp(argv[i], "-exec")){
                 goto gen;
             }
