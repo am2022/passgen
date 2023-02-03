@@ -26,11 +26,13 @@ void pass::creat_pass(char *ch, int len, int start_range = 0, int end_range = 0)
 void pass::generate(char *ch, int i, string s, int len, int start_range, int end_range){
     if(i == 0){
         cout<<this->static_string;
-        cout<<s<<"\n";
+        cout<<s;
+        cout<<this->e_static_string<<"\n";
 
         if(this->export_to_file == true){
             this->pass_out<<this->static_string;
-            this->pass_out<<s<<"\n";
+            this->pass_out<<s;
+            this->pass_out<<this->e_static_string<<"\n";
         }
         return;
     }
