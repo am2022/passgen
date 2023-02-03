@@ -50,3 +50,7 @@ void pass::set_filename(string fname){
 void pass::set_static_string(string s_string){
     this->static_string = s_string;
 }
+
+void pass::set_end_static_string(string e_s_string){
+    this->e_static_string = e_s_string;
+}
