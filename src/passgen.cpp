@@ -18,8 +18,10 @@ int main(int argc, char** argv){
     string add_range;
     string sr;
     string er;
-    string static_string; //used of static string in password list
+    string static_string; //used for static string in password list
     string a_static_string;
+    string e_static_string; //used for static string in end of the password
+    string a_e_static_string; //used for ask user for static string in end of the password
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
