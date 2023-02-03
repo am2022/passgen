@@ -126,6 +126,14 @@ int main(int argc, char** argv){
         p.set_static_string(static_string);
     }
 
+    cout<<"do you want to add a static string?(y/n):";
+    cin>>a_e_static_string;
+
+    if(a_e_static_string[0] == 'y' || a_e_static_string[0] == 'Y'){
+        cout<<"enter static string for end";
+        cin>>e_static_string;
+    }
+
     cout<<"do you want to export passlist in a file?(y/n):";
     cin>>s_export_pass;
 
