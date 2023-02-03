@@ -13,6 +13,7 @@ class pass{
         string file_name;
         ofstream pass_out;
         string static_string;
+        string e_static_string;
     public:
         pass();
         ~pass();
@@ -20,6 +21,7 @@ class pass{
         void generate(char *ch, int i, string s, int len, int start_range, int end_range);
         void set_filename(string fname);
         void set_static_string(string s_string);
+        void set_end_static_string(string e_s_string);
 };
 
 #endif
