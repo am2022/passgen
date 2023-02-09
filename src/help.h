@@ -9,5 +9,6 @@ void argv_help(){
     cout<<"-er for config the end of password list\n";
     cout<<"-imp_char for import a file for setting chars of password\n";
     cout<<"-static_string for add a static string\n";
+    cout<<"-e_static_string for add static string end of the passwords\n";
     cout<<"you should type -exec end of your inputs";
 }
