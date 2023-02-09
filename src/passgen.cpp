@@ -126,11 +126,11 @@ int main(int argc, char** argv){
         p.set_static_string(static_string);
     }
 
-    cout<<"do you want to add a static string?(y/n):";
+    cout<<"do you want to add a static string for end?(y/n):";
     cin>>a_e_static_string;
 
     if(a_e_static_string[0] == 'y' || a_e_static_string[0] == 'Y'){
-        cout<<"enter static string for end";
+        cout<<"enter static string for end:";
         cin>>e_static_string;
 
         p.set_end_static_string(e_static_string);
