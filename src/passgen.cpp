@@ -74,6 +74,11 @@ int main(int argc, char** argv){
 
                 i++;
             }
+            else if(! strcmp(argv[i], "-e_static_string")){
+                e_static_string = string(argv[i+1]);
+
+                i++;
+            }
             else if(! strcmp(argv[i], "-exec")){
                 goto gen;
             }
