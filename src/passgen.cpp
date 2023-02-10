@@ -27,6 +27,12 @@ int main(int argc, char** argv){
         for(int i = 1;i < argc;i++){
             if(! strcmp(argv[i], "-char")){
                 chs = argv[i+1];
+
+                if(chs == "--num"){
+                    chs = "";
+                    chs = "0123456789";
+                }
+
                 i++;
             }
             else if(! strcmp(argv[i], "-o")){
