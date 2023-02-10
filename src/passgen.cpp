@@ -32,6 +32,10 @@ int main(int argc, char** argv){
                     chs = "";
                     chs = "0123456789";
                 }
+                else if(chs == "--num-0"){
+                    chs = "";
+                    chs = "123456789";
+                }
 
                 i++;
             }
