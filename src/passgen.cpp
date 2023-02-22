@@ -40,6 +40,10 @@ int main(int argc, char** argv){
                     chs = "";
                     chs = "abcdefghijklmnopqrstuvwxyz";
                 }
+                else if(chs == "--cap-letters"){
+                    chs = "";
+                    chs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                }
 
                 i++;
             }
