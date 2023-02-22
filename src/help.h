@@ -7,6 +7,7 @@ void argv_help(){
     cout<<"\t\tyou can use --num to set 0123456789 to chars\n";
     cout<<"\t\tyou can use --num-0 to set 123456789 to chars\n";
     cout<<"\t\tyou can use --small-letters to set abcdefghijklmnopqrstuvwxyz to chars\n";
+    cout<<"\t\tyou can use --cap-letters to set ABCDEFGHIJKLMNOPQRSTUVWXYZ to chars\n";
     cout<<"-o for get output file\n";
     cout<<"-sr for config the start range of password list\n";
     cout<<"-er for config the end of password list\n";
