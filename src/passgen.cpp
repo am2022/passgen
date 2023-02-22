@@ -36,6 +36,10 @@ int main(int argc, char** argv){
                     chs = "";
                     chs = "123456789";
                 }
+                else if(chs == "--small-letters"){
+                    chs = "";
+                    chs = "abcdefghijklmnopqrstuvwxyz";
+                }
 
                 i++;
             }
