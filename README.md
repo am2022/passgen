@@ -7,6 +7,7 @@
 ><br>use --num after -char to set "0123456789".
 ><br>use --num-0 after -char to set "123456789".
 ><br>use --small-letters after -char to set "abcdefghijklmnopqrstuvwxyz".
+><br>use --cap-letters after -char to set "ABCDEFGHIJKLMNOPQRSTUVWXYZ".
 * Get help:
 >if you want to get help for argv in passgen you can type -h or --help.
 *  Get output into a file:
