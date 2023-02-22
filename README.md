@@ -4,8 +4,8 @@
 ## help for argv in passgen:
 * Use characters:
 >if you want to take characters to passgen in argv; you should use -char and after that, you should write the characters.
->use --num after -char to set "0123456789".
->use --num-0 after -char to set "123456789".
+><br>use --num after -char to set "0123456789".
+><br>use --num-0 after -char to set "123456789".
 * Get help:
 >if you want to get help for argv in passgen you can type -h or --help.
 *  Get output into a file:
