@@ -118,6 +118,9 @@ int main(int argc, char** argv){
 
     mainfunc:
 
+    ascii_art();
+    cout<<"\n";
+
     cout<<"do you want to import list of characters?(y/n):";
     cin>>a_chs;
 
