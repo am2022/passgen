@@ -33,3 +33,6 @@
 
 # Cpp config for vscode
 /.vscode/c_cpp_properties.json
+
+# Vim swp file
+*.swp
