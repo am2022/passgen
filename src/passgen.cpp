@@ -24,6 +24,7 @@ int main(int argc, char** argv){
     string e_static_string; //used for static string in end of the password
     string a_e_static_string; //used for ask user for static string in end of the password
     string a_showpass; //this var is for asking user to show generated passwords
+    string showpass;
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
@@ -184,6 +185,16 @@ int main(int argc, char** argv){
         cin>>s_range;
         cout<<"enter end of range:";
         cin>>e_range;
+    }
+
+    cout<<"do you want to see passwords that created?(y/n):";
+    cin>>a_showpass;
+
+    if(a_showpass[0] == 'y' || a_showpass[0] == 'Y'){
+        showpass = "y";
+    }
+    else{
+        showpass = "n";
     }
 
     gen:
