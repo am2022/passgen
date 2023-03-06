@@ -23,6 +23,7 @@ int main(int argc, char** argv){
     string a_static_string;
     string e_static_string; //used for static string in end of the password
     string a_e_static_string; //used for ask user for static string in end of the password
+    string a_showpass; //this var is for asking user to show generated passwords
 
     if(argc >= 2){
         for(int i = 1;i < argc;i++){
