@@ -14,6 +14,7 @@ class pass{
         ofstream pass_out;
         string static_string;
         string e_static_string;
+        string u_showpass;
     public:
         pass();
         ~pass();
