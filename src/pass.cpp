@@ -9,7 +9,7 @@ pass::~pass(){
     this->pass_out.close();
 }
 
-void pass::creat_pass(char *ch, int len, int start_range = 0, int end_range = 0){
+void pass::creat_pass(char *ch, int len, int start_range = 0, int end_range = 0, string showpass){
     if(start_range == 0){
         start_range = 0;
     }
