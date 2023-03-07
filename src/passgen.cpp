@@ -210,7 +210,7 @@ int main(int argc, char** argv){
         p.creat_pass(ch, len, s_range, e_range, showpass);
     }
     else{
-        p.creat_pass(ch, len, showpass);
+        p.creat_pass(ch, len);
     }
 
     return 0;
