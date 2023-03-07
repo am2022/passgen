@@ -207,10 +207,10 @@ int main(int argc, char** argv){
     int len = sizeof(ch) / sizeof(ch[0]);
 
     if(add_range[0] == 'y' || add_range[0] == 'Y'){
-        p.creat_pass(ch, len, s_range, e_range);
+        p.creat_pass(ch, len, s_range, e_range, showpass);
     }
     else{
-        p.creat_pass(ch, len);
+        p.creat_pass(ch, len, showpass);
     }
 
     return 0;
