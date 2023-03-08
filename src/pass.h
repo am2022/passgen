@@ -23,6 +23,7 @@ class pass{
         void set_filename(string fname);
         void set_static_string(string s_string);
         void set_end_static_string(string e_s_string);
+        void set_showpass(string showpass);
 };
 
 #endif
