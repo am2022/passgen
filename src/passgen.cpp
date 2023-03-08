@@ -192,9 +192,11 @@ int main(int argc, char** argv){
 
     if(a_showpass[0] == 'y' || a_showpass[0] == 'Y'){
         showpass = "y";
+        p.set_showpass("y");
     }
     else{
         showpass = "n";
+        p.set_showpass("n");
     }
 
     gen:
