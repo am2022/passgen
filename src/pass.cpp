@@ -64,5 +64,10 @@ void pass::set_end_static_string(string e_s_string){
 }
 
 void pass::set_showpass(string showpass){
-    
+    if(showpass == "y"){
+        this->u_showpass = "y";
+    }
+    else{
+        this->u_showpass = "n";
+    }
 }
