@@ -9,17 +9,13 @@ pass::~pass(){
     this->pass_out.close();
 }
 
-void pass::creat_pass(char *ch, int len, int start_range = 0, int end_range = 0, string showpass = "n"){
+void pass::creat_pass(char *ch, int len, int start_range = 0, int end_range = 0){
     if(start_range == 0){
         start_range = 0;
     }
 
     if(end_range == 0){
         end_range = len;
-    }
-
-    if(showpass == "y"){
-        this->u_showpass = "y";
     }
 
     for(int i = start_range;i <= end_range;i++){
