@@ -100,6 +100,9 @@ int main(int argc, char** argv){
 
                 i++;
             }
+            else if(! strcmp(argv[i], "-showpass")){
+                i++;
+            }
             else if(! strcmp(argv[i], "-exec")){
                 goto gen;
             }
