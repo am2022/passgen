@@ -22,6 +22,8 @@
 >use -static_string and after that enter your static string.
 * add a static string end of the passwords:
 >use -e_static_string and after that enter you static string.
+* -showpass for show or hide passwords:
+>y,Y,t,T to see the passwords, and other chars to hide them.
 * You should use -exec end of the argv inputs.
 >end of the argvs that you use you should put -exec for getting execute.
 ## how to build passgen?
