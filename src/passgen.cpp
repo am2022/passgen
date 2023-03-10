@@ -101,6 +101,15 @@ int main(int argc, char** argv){
                 i++;
             }
             else if(! strcmp(argv[i], "-showpass")){
+                showpass = string(argv[i+1]);
+
+                if(showpass[0] == 'T' || showpass[0] == 't' || showpass[0] == 'Y' || showpass[0] == 'y'){
+                    p.set_showpass("y");
+                }
+                else{
+                    p.set_showpass("n");
+                }
+
                 i++;
             }
             else if(! strcmp(argv[i], "-exec")){
