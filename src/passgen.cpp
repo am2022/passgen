@@ -58,6 +58,7 @@ int main(int argc, char** argv){
             else if(! strcmp(argv[i], "-sr")){
                 sr = string(argv[i+1]);
                 s_range = stoi(sr);
+                add_range[0] = 'y';
 
                 if(s_range > chs.length()){
                     cout<<"your input start range, is more than length of characters you entered!\n";
@@ -69,6 +70,7 @@ int main(int argc, char** argv){
             else if(! strcmp(argv[i], "-er")){
                 er = string(argv[i+1]);
                 e_range = stoi(er);
+                add_range[0] = 'y';
 
                 if(e_range > chs.length()){
                     cout<<"your input end range, is more than length of characters you entered!\n";
